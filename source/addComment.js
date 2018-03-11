@@ -13,10 +13,6 @@ $(document).ready(function(){
     authorElement.className = 'author'
     commentElement.append(authorElement);
 
-    // $("#comment_list").append(commentElement);
-    // $("#comment_list").append('<br/>');
-    // var authorElement = commentElement.append(author);
-    // commentElement.append(author);
     $("#comment_list").append(commentElement);
   })
 })
